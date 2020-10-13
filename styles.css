@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto',  sans-serif;
+    line-height: 1.4;
+    background-color: #dddddd;
+}
+
+a{
+text-decoration: none;
+}
+
+p{
+    margin: .75rem 0;
+}
+
+li{
+    list-style: none;
+}
+
+/*Utility classes*/ 
+
+.d-flex{
+display: flex;    /*flex can make block elements(Immediate children of this element) appear in a horizontal way*/
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.l-heading{
+    font-size: 3rem;
+}
+.s-heading{
+    font-size: 1.8rem;
+}
+
+.bg-white{
+    background: white;
+}
+.lead{
+    font-size: 1.2rem;
+}
+
+/*Navbar*/
+
+.nav-btn{
+  flex:1 ;
+  margin: 0;
+  padding: 1.2rem 0;
+  padding-left: 1.5rem;
+  color: #000000;
+  background-color: #fff9f9;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-btn:hover{
+    background: #065f85;
+    color: #ffffff;
+}
+
+.active{
+    background: #065f85;
+    color: #ffffff;
+}
+
+.nav-icon{
+  margin: 0.8rem;
+}
+
+/* Header Section */
+
+.head-row{
+    padding-top: 5rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0 1.2rem ;
+    background: #065f85;
+    color: #ffffff;
+    font-size: 1.4rem;
+    border-radius: 1px;
+}
+
+.header-btn{
+    margin: 1.2rem;
+    margin-top: .3rem;
+}
+
+/*Body Section*/
+
+/*Short Details Section*/
+#short-details{
+    flex: 3;          /*Divides the screen in the ratio of3:5*/
+    margin: 2rem;
+    margin-left: 0;
+}
+
+#short-details h2{
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+
+.img-profile{
+    width: 100%;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+}
+
+.details-list{
+    padding: 3rem 2rem 1rem 2rem;
+}
+
+.details-list-item{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+
+.details-list-item h3 {
+    flex:1;
+    font-size: 1.3rem;  
+}
+
+.details-list-item p{
+    flex: 1;
+    font-size: 1.3rem;
+    margin: 0;
+}
+/*Long Details*/
+
+#long-details{
+    flex: 5;
+    margin: 2rem;
+
+}
+
+#long-details .top-section-heading{
+    padding: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid black;
+}
+
+#long-details .details-list{
+    flex: 1;
+}
+
+#long-details .bottom-section-heading{
+    padding: 3rem 2rem 1rem 2rem;
+    border-bottom: 2px solid black;
+}
+
+.portfolio-para{
+    padding: 3rem 2rem;
+} 
+
+/*Contact page*/
+
+.contact-website-list{
+    padding: 3rem 2.5rem;
+}
+
+/*Blog page*/
+.blog{
+    margin: 2rem 0;
+    border-radius: 5px;
+}
+
+.blog-img{
+    flex:1;
+    width: 200px;
+    padding: 2rem;
+}
+
+.blog-content{
+    flex: 3;
+    padding: 2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
